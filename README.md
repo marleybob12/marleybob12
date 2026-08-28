@@ -23,11 +23,8 @@
   <a href="https://www.linkedin.com/in/marley-thales-soares-guimar%C3%A3es-de-souza-00780b389">
     <img src="https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://portfolio1-pi-three.vercel.app">
+  <a href="https://portifolio1-pi-three.vercel.app/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-111827?style=for-the-badge&logo=vercel&logoColor=A855F7" alt="Portfólio" />
-  </a>
-  <a href="mailto:marleytfox@gmail.com">
-    <img src="https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
   </a>
 </p>
 
