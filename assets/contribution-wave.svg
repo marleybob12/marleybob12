@@ -1,32 +1,1528 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="wave-title wave-desc">
-  <title id="wave-title">Preparando a onda de contribuições</title>
-  <desc id="wave-desc">A visualização será preenchida automaticamente pelo GitHub Actions.</desc>
+  <title id="wave-title">Onda animada de contribuições de marleybob12</title>
+  <desc id="wave-desc">Cada ponto representa um dia. Tons mais claros indicam mais contribuições.</desc>
   <defs>
-    <linearGradient id="wave-gradient" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="wave-gradient-back" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#3B1764" />
-      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="50%" stop-color="#6D28D9" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+    <linearGradient id="wave-gradient-front" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6D28D9" />
+      <stop offset="55%" stop-color="#8B5CF6" />
       <stop offset="100%" stop-color="#C084FC" />
     </linearGradient>
+    <clipPath id="rounded-card">
+      <rect x="1" y="1" width="998" height="308" rx="22" />
+    </clipPath>
     <style>
-      .wave-one { animation: drift-one 8s ease-in-out infinite; }
-      .wave-two { animation: drift-two 6s ease-in-out infinite; }
-      @keyframes drift-one {
-        0%, 100% { transform: translateX(0); opacity: .35; }
-        50% { transform: translateX(35px); opacity: .55; }
+      .wave-dot {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation-name: float-dot;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
       }
-      @keyframes drift-two {
-        0%, 100% { transform: translateX(0); opacity: .25; }
-        50% { transform: translateX(-30px); opacity: .45; }
+      .wave-back { animation: drift-back 9s ease-in-out infinite; }
+      .wave-front { animation: drift-front 7s ease-in-out infinite; }
+      @keyframes float-dot {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-11px); }
+      }
+      @keyframes drift-back {
+        0%, 100% { transform: translateX(0); opacity: .20; }
+        50% { transform: translateX(28px); opacity: .30; }
+      }
+      @keyframes drift-front {
+        0%, 100% { transform: translateX(0); opacity: .18; }
+        50% { transform: translateX(-24px); opacity: .27; }
       }
       @media (prefers-reduced-motion: reduce) {
-        .wave-one, .wave-two { animation: none; }
+        .wave-dot, .wave-back, .wave-front { animation: none; }
       }
     </style>
   </defs>
-  <rect x="1" y="1" width="998" height="308" rx="22" fill="#0D1117" stroke="#30363D" />
-  <text x="500" y="108" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Preparando sua onda de contribuições</text>
-  <text x="500" y="138" text-anchor="middle" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">O GitHub atualizará os dados automaticamente.</text>
-  <path class="wave-one" d="M-90 212 C110 150 280 250 485 205 S820 165 1090 218 V320 H-90 Z" fill="url(#wave-gradient)" />
-  <path class="wave-two" d="M-90 245 C120 198 300 268 520 232 S850 198 1090 250 V320 H-90 Z" fill="#6D28D9" />
+  <g clip-path="url(#rounded-card)">
+    <rect width="1000" height="310" fill="#0D1117" />
+    <path class="wave-back" d="M-90 236 C95 174 270 270 464 225 S810 184 1090 239 V320 H-90 Z" fill="url(#wave-gradient-back)" />
+    <path class="wave-front" d="M-90 252 C130 205 300 268 500 238 S820 205 1090 258 V320 H-90 Z" fill="url(#wave-gradient-front)" />
+    <text x="42" y="44" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Onda de contribuições</text>
+    <text x="42" y="68" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Contribuições públicas dos últimos 12 meses</text>
+    <text x="958" y="44" text-anchor="end" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">155</text>
+    <text x="958" y="66" text-anchor="end" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">contribuições</text>
+    <g>
+      <title>2025-08-28: 1 contribuição</title>
+      <circle class="wave-dot" cx="62.0" cy="164.0" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.16s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-08-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="62.0" cy="173.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.20s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-08-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="62.0" cy="182.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.24s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-08-31: 0 contribuições</title>
+      <circle class="wave-dot" cx="78.8" cy="138.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.09s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-09-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="78.8" cy="147.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.13s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-09-02: 8 contribuições</title>
+      <circle class="wave-dot" cx="78.8" cy="156.7" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-0.17s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-09-03: 1 contribuição</title>
+      <circle class="wave-dot" cx="78.8" cy="165.7" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.21s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-09-04: 2 contribuições</title>
+      <circle class="wave-dot" cx="78.8" cy="174.7" r="4.7" fill="#5B21B6" opacity="1" style="animation-delay:-0.25s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-09-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="78.8" cy="183.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.29s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-09-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="78.8" cy="192.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.33s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-09-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="95.6" cy="148.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.18s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-09-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="95.6" cy="157.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.22s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-09-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="95.6" cy="166.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.26s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-09-10: 1 contribuição</title>
+      <circle class="wave-dot" cx="95.6" cy="175.3" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.30s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-09-11: 1 contribuição</title>
+      <circle class="wave-dot" cx="95.6" cy="184.3" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.34s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-09-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="95.6" cy="193.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.38s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-09-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="95.6" cy="202.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.42s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-09-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="112.4" cy="156.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.27s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-09-15: 2 contribuições</title>
+      <circle class="wave-dot" cx="112.4" cy="165.1" r="4.7" fill="#5B21B6" opacity="1" style="animation-delay:-0.31s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-09-16: 1 contribuição</title>
+      <circle class="wave-dot" cx="112.4" cy="174.1" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.35s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-09-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="112.4" cy="183.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.39s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-09-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="112.4" cy="192.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.43s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-09-19: 5 contribuições</title>
+      <circle class="wave-dot" cx="112.4" cy="201.1" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-0.47s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-09-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="112.4" cy="210.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.51s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-09-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="129.2" cy="161.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.36s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-09-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="129.2" cy="170.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.40s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-09-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="129.2" cy="179.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.44s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-09-24: 4 contribuições</title>
+      <circle class="wave-dot" cx="129.2" cy="188.1" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-0.48s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-09-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="129.2" cy="197.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.52s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-09-26: 3 contribuições</title>
+      <circle class="wave-dot" cx="129.2" cy="206.1" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-0.56s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-09-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="129.2" cy="215.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.60s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-09-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="146.0" cy="163.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.45s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-09-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="146.0" cy="172.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.49s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-09-30: 1 contribuição</title>
+      <circle class="wave-dot" cx="146.0" cy="181.0" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.53s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-10-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="146.0" cy="190.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.57s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-10-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="146.0" cy="199.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.61s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-10-03: 2 contribuições</title>
+      <circle class="wave-dot" cx="146.0" cy="208.0" r="4.7" fill="#5B21B6" opacity="1" style="animation-delay:-0.65s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-10-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="146.0" cy="217.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.69s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-10-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="162.8" cy="161.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.54s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-10-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="162.8" cy="170.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.58s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-10-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="162.8" cy="179.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.62s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-10-08: 1 contribuição</title>
+      <circle class="wave-dot" cx="162.8" cy="188.5" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.66s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-10-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="162.8" cy="197.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.70s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-10-10: 1 contribuição</title>
+      <circle class="wave-dot" cx="162.8" cy="206.5" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.74s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-10-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="162.8" cy="215.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.78s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-10-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="179.6" cy="156.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.63s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-10-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="179.6" cy="165.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.67s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-10-14: 3 contribuições</title>
+      <circle class="wave-dot" cx="179.6" cy="174.9" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-0.71s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-10-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="179.6" cy="183.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.75s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-10-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="179.6" cy="192.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.79s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-10-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="179.6" cy="201.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.83s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-10-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="179.6" cy="210.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.87s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-10-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="196.4" cy="149.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.72s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-10-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="196.4" cy="158.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.76s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-10-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="196.4" cy="167.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.80s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-10-22: 4 contribuições</title>
+      <circle class="wave-dot" cx="196.4" cy="176.5" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-0.84s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-10-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="196.4" cy="185.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.88s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-10-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="196.4" cy="194.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.92s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-10-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="196.4" cy="203.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.96s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-10-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="213.2" cy="140.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.81s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-10-27: 2 contribuições</title>
+      <circle class="wave-dot" cx="213.2" cy="149.1" r="4.7" fill="#5B21B6" opacity="1" style="animation-delay:-0.85s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-10-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="213.2" cy="158.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.89s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-10-29: 3 contribuições</title>
+      <circle class="wave-dot" cx="213.2" cy="167.1" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-0.93s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-10-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="213.2" cy="176.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.97s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-10-31: 1 contribuição</title>
+      <circle class="wave-dot" cx="213.2" cy="185.1" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-1.01s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-11-01: 3 contribuições</title>
+      <circle class="wave-dot" cx="213.2" cy="194.1" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-1.05s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-11-02: 5 contribuições</title>
+      <circle class="wave-dot" cx="230.0" cy="129.5" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-0.90s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-11-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="230.0" cy="138.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.94s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-11-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="230.0" cy="147.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.98s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-11-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="230.0" cy="156.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.02s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-11-06: 1 contribuição</title>
+      <circle class="wave-dot" cx="230.0" cy="165.5" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-1.06s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-11-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="230.0" cy="174.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.10s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-11-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="230.0" cy="183.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.14s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-11-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="246.8" cy="118.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.99s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-11-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="246.8" cy="127.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.03s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-11-11: 32 contribuições</title>
+      <circle class="wave-dot" cx="246.8" cy="136.7" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.07s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-11-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="246.8" cy="145.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.11s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-11-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="246.8" cy="154.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.15s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-11-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="246.8" cy="163.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.19s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-11-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="246.8" cy="172.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.23s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-11-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="263.6" cy="108.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.08s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-11-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="263.6" cy="117.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.12s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-11-18: 6 contribuições</title>
+      <circle class="wave-dot" cx="263.6" cy="126.9" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.16s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-11-19: 11 contribuições</title>
+      <circle class="wave-dot" cx="263.6" cy="135.9" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.20s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-11-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="263.6" cy="144.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.24s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-11-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="263.6" cy="153.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.28s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-11-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="263.6" cy="162.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.32s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-11-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="280.4" cy="100.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.17s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-11-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="280.4" cy="109.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.21s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-11-25: 1 contribuição</title>
+      <circle class="wave-dot" cx="280.4" cy="118.8" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-1.25s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-11-26: 5 contribuições</title>
+      <circle class="wave-dot" cx="280.4" cy="127.8" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.29s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-11-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="280.4" cy="136.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.33s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-11-28: 5 contribuições</title>
+      <circle class="wave-dot" cx="280.4" cy="145.8" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.37s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-11-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="280.4" cy="154.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.41s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-11-30: 2 contribuições</title>
+      <circle class="wave-dot" cx="297.2" cy="95.4" r="4.7" fill="#5B21B6" opacity="1" style="animation-delay:-1.26s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-12-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="297.2" cy="104.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.30s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-12-02: 11 contribuições</title>
+      <circle class="wave-dot" cx="297.2" cy="113.4" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.34s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-12-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="297.2" cy="122.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.38s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-12-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="297.2" cy="131.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.42s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-12-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="297.2" cy="140.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.46s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-12-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="297.2" cy="149.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.50s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-12-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="314.0" cy="93.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.35s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-12-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="314.0" cy="102.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.39s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-12-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="314.0" cy="111.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.43s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-12-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="314.0" cy="120.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.47s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-12-11: 4 contribuições</title>
+      <circle class="wave-dot" cx="314.0" cy="129.1" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-1.51s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-12-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="314.0" cy="138.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.55s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-12-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="314.0" cy="147.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.59s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-12-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="330.8" cy="94.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.44s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-12-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="330.8" cy="103.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.48s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-12-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="330.8" cy="112.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.52s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-12-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="330.8" cy="121.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.56s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-12-18: 1 contribuição</title>
+      <circle class="wave-dot" cx="330.8" cy="130.1" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-1.60s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-12-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="330.8" cy="139.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.64s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-12-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="330.8" cy="148.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.68s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-12-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="347.6" cy="98.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.53s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-12-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="347.6" cy="107.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.57s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-12-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="347.6" cy="116.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.61s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-12-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="347.6" cy="125.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.65s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-12-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="347.6" cy="134.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.69s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2025-12-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="347.6" cy="143.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.73s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2025-12-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="347.6" cy="152.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.77s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-12-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="364.4" cy="105.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.62s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2025-12-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="364.4" cy="114.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.66s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2025-12-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="364.4" cy="123.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.70s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2025-12-31: 0 contribuições</title>
+      <circle class="wave-dot" cx="364.4" cy="132.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.74s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-01-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="364.4" cy="141.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.78s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-01-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="364.4" cy="150.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.82s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-01-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="364.4" cy="159.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.86s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-01-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="381.2" cy="114.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.71s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-01-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="381.2" cy="123.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.75s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-01-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="381.2" cy="132.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.79s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-01-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="381.2" cy="141.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.83s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-01-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="381.2" cy="150.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.87s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-01-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="381.2" cy="159.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.91s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-01-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="381.2" cy="168.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.95s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-01-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="398.0" cy="125.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.80s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-01-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="398.0" cy="134.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.84s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-01-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="398.0" cy="143.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.88s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-01-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="398.0" cy="152.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.92s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-01-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="398.0" cy="161.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.96s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-01-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="398.0" cy="170.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.00s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-01-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="398.0" cy="179.1" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.04s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-01-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="414.8" cy="135.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.89s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-01-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="414.8" cy="144.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.93s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-01-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="414.8" cy="153.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.97s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-01-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="414.8" cy="162.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.01s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-01-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="414.8" cy="171.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.05s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-01-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="414.8" cy="180.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.09s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-01-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="414.8" cy="189.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.13s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-01-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="431.6" cy="145.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-1.98s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-01-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="431.6" cy="154.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.02s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-01-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="431.6" cy="163.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.06s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-01-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="431.6" cy="172.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.10s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-01-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="431.6" cy="181.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.14s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-01-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="431.6" cy="190.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.18s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-01-31: 0 contribuições</title>
+      <circle class="wave-dot" cx="431.6" cy="199.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.22s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-02-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="448.4" cy="154.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.07s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-02-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="448.4" cy="163.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.11s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-02-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="448.4" cy="172.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.15s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-02-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="448.4" cy="181.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.19s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-02-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="448.4" cy="190.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.23s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-02-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="448.4" cy="199.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.27s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-02-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="448.4" cy="208.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.31s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-02-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="465.2" cy="160.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.16s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-02-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="465.2" cy="169.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.20s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-02-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="465.2" cy="178.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.24s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-02-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="465.2" cy="187.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.28s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-02-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="465.2" cy="196.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.32s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-02-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="465.2" cy="205.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.36s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-02-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="465.2" cy="214.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.40s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-02-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="482.0" cy="162.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.25s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-02-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="482.0" cy="171.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.29s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-02-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="482.0" cy="180.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.33s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-02-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="482.0" cy="189.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.37s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-02-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="482.0" cy="198.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.41s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-02-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="482.0" cy="207.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.45s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-02-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="482.0" cy="216.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.49s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-02-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="498.8" cy="162.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.34s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-02-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="498.8" cy="171.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.38s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-02-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="498.8" cy="180.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.42s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-02-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="498.8" cy="189.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.46s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-02-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="498.8" cy="198.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.50s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-02-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="498.8" cy="207.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.54s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-02-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="498.8" cy="216.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.58s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-03-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="515.6" cy="158.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.43s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-03-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="515.6" cy="167.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.47s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-03-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="515.6" cy="176.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.51s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-03-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="515.6" cy="185.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.55s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-03-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="515.6" cy="194.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.59s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-03-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="515.6" cy="203.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.63s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-03-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="515.6" cy="212.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.67s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-03-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="532.4" cy="151.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.52s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-03-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="532.4" cy="160.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.56s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-03-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="532.4" cy="169.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.60s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-03-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="532.4" cy="178.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.64s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-03-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="532.4" cy="187.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.68s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-03-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="532.4" cy="196.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.72s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-03-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="532.4" cy="205.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.76s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-03-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="549.2" cy="142.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.61s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-03-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="549.2" cy="151.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.65s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-03-17: 4 contribuições</title>
+      <circle class="wave-dot" cx="549.2" cy="160.7" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-2.69s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-03-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="549.2" cy="169.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.73s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-03-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="549.2" cy="178.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.77s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-03-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="549.2" cy="187.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.81s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-03-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="549.2" cy="196.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.85s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-03-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="566.0" cy="132.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.70s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-03-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="566.0" cy="141.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.74s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-03-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="566.0" cy="150.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.78s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-03-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="566.0" cy="159.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.82s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-03-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="566.0" cy="168.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.86s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-03-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="566.0" cy="177.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.90s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-03-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="566.0" cy="186.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.94s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-03-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="582.8" cy="121.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.79s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-03-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="582.8" cy="130.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.83s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-03-31: 0 contribuições</title>
+      <circle class="wave-dot" cx="582.8" cy="139.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.87s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-04-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="582.8" cy="148.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.91s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-04-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="582.8" cy="157.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.95s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-04-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="582.8" cy="166.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.99s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-04-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="582.8" cy="175.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.03s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-04-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="599.6" cy="111.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.88s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-04-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="599.6" cy="120.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.92s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-04-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="599.6" cy="129.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-2.96s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-04-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="599.6" cy="138.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.00s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-04-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="599.6" cy="147.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.04s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-04-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="599.6" cy="156.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.08s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-04-11: 8 contribuições</title>
+      <circle class="wave-dot" cx="599.6" cy="165.4" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-3.12s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-04-12: 1 contribuição</title>
+      <circle class="wave-dot" cx="616.4" cy="102.8" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-2.97s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-04-13: 1 contribuição</title>
+      <circle class="wave-dot" cx="616.4" cy="111.8" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-3.01s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-04-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="616.4" cy="120.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.05s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-04-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="616.4" cy="129.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.09s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-04-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="616.4" cy="138.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.13s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-04-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="616.4" cy="147.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.17s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-04-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="616.4" cy="156.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.21s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-04-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="633.2" cy="96.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.06s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-04-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="633.2" cy="105.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.10s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-04-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="633.2" cy="114.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.14s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-04-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="633.2" cy="123.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.18s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-04-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="633.2" cy="132.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.22s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-04-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="633.2" cy="141.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.26s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-04-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="633.2" cy="150.6" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.30s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-04-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="650.0" cy="93.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.15s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-04-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="650.0" cy="102.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.19s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-04-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="650.0" cy="111.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.23s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-04-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="650.0" cy="120.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.27s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-04-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="650.0" cy="129.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.31s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-05-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="650.0" cy="138.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.35s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-05-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="650.0" cy="147.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.39s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-05-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="666.8" cy="93.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.24s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-05-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="666.8" cy="102.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.28s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-05-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="666.8" cy="111.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.32s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-05-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="666.8" cy="120.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.36s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-05-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="666.8" cy="129.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.40s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-05-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="666.8" cy="138.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.44s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-05-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="666.8" cy="147.5" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.48s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-05-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="683.6" cy="96.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.33s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-05-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="683.6" cy="105.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.37s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-05-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="683.6" cy="114.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.41s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-05-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="683.6" cy="123.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.45s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-05-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="683.6" cy="132.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.49s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-05-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="683.6" cy="141.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.53s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-05-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="683.6" cy="150.9" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.57s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-05-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="700.4" cy="103.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.42s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-05-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="700.4" cy="112.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.46s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-05-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="700.4" cy="121.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.50s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-05-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="700.4" cy="130.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.54s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-05-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="700.4" cy="139.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.58s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-05-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="700.4" cy="148.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.62s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-05-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="700.4" cy="157.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.66s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-05-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="717.2" cy="112.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.51s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-05-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="717.2" cy="121.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.55s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-05-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="717.2" cy="130.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.59s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-05-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="717.2" cy="139.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.63s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-05-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="717.2" cy="148.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.67s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-05-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="717.2" cy="157.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.71s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-05-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="717.2" cy="166.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.75s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-05-31: 0 contribuições</title>
+      <circle class="wave-dot" cx="734.0" cy="122.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.60s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-06-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="734.0" cy="131.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.64s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-06-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="734.0" cy="140.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.68s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-06-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="734.0" cy="149.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.72s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-06-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="734.0" cy="158.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.76s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-06-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="734.0" cy="167.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.80s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-06-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="734.0" cy="176.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.84s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-06-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="750.8" cy="133.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.69s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-06-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="750.8" cy="142.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.73s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-06-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="750.8" cy="151.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.77s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-06-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="750.8" cy="160.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.81s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-06-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="750.8" cy="169.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.85s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-06-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="750.8" cy="178.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.89s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-06-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="750.8" cy="187.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.93s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-06-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="767.6" cy="143.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.78s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-06-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="767.6" cy="152.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.82s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-06-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="767.6" cy="161.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.86s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-06-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="767.6" cy="170.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.90s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-06-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="767.6" cy="179.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.94s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-06-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="767.6" cy="188.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.98s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-06-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="767.6" cy="197.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.02s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-06-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="784.4" cy="152.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.87s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-06-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="784.4" cy="161.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.91s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-06-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="784.4" cy="170.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.95s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-06-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="784.4" cy="179.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.99s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-06-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="784.4" cy="188.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.03s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-06-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="784.4" cy="197.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.07s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-06-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="784.4" cy="206.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.11s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-06-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="801.2" cy="158.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-3.96s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-06-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="801.2" cy="167.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.00s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-06-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="801.2" cy="176.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.04s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-07-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="801.2" cy="185.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.08s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-07-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="801.2" cy="194.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.12s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-07-03: 2 contribuições</title>
+      <circle class="wave-dot" cx="801.2" cy="203.8" r="4.7" fill="#5B21B6" opacity="1" style="animation-delay:-4.16s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-07-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="801.2" cy="212.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.20s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-07-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="818.0" cy="162.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.05s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-07-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="818.0" cy="171.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.09s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-07-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="818.0" cy="180.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.13s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-07-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="818.0" cy="189.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.17s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-07-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="818.0" cy="198.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.21s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-07-10: 0 contribuições</title>
+      <circle class="wave-dot" cx="818.0" cy="207.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.25s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-07-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="818.0" cy="216.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.29s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-07-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="834.8" cy="162.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.14s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-07-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="834.8" cy="171.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.18s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-07-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="834.8" cy="180.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.22s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-07-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="834.8" cy="189.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.26s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-07-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="834.8" cy="198.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.30s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-07-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="834.8" cy="207.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.34s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-07-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="834.8" cy="216.7" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.38s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-07-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="851.6" cy="159.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.23s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-07-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="851.6" cy="168.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.27s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-07-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="851.6" cy="177.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.31s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-07-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="851.6" cy="186.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.35s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-07-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="851.6" cy="195.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.39s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-07-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="851.6" cy="204.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.43s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-07-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="851.6" cy="213.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.47s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-07-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="868.4" cy="153.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.32s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-07-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="868.4" cy="162.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.36s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-07-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="868.4" cy="171.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.40s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-07-29: 0 contribuições</title>
+      <circle class="wave-dot" cx="868.4" cy="180.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.44s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-07-30: 0 contribuições</title>
+      <circle class="wave-dot" cx="868.4" cy="189.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.48s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-07-31: 0 contribuições</title>
+      <circle class="wave-dot" cx="868.4" cy="198.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.52s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-08-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="868.4" cy="207.8" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.56s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-08-02: 0 contribuições</title>
+      <circle class="wave-dot" cx="885.2" cy="145.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.41s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-08-03: 0 contribuições</title>
+      <circle class="wave-dot" cx="885.2" cy="154.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.45s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-08-04: 0 contribuições</title>
+      <circle class="wave-dot" cx="885.2" cy="163.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.49s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-08-05: 0 contribuições</title>
+      <circle class="wave-dot" cx="885.2" cy="172.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.53s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-08-06: 0 contribuições</title>
+      <circle class="wave-dot" cx="885.2" cy="181.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.57s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-08-07: 0 contribuições</title>
+      <circle class="wave-dot" cx="885.2" cy="190.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.61s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-08-08: 0 contribuições</title>
+      <circle class="wave-dot" cx="885.2" cy="199.3" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.65s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-08-09: 0 contribuições</title>
+      <circle class="wave-dot" cx="902.0" cy="135.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.50s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-08-10: 1 contribuição</title>
+      <circle class="wave-dot" cx="902.0" cy="144.2" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-4.54s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-08-11: 0 contribuições</title>
+      <circle class="wave-dot" cx="902.0" cy="153.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.58s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-08-12: 0 contribuições</title>
+      <circle class="wave-dot" cx="902.0" cy="162.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.62s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-08-13: 0 contribuições</title>
+      <circle class="wave-dot" cx="902.0" cy="171.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.66s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-08-14: 0 contribuições</title>
+      <circle class="wave-dot" cx="902.0" cy="180.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.70s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-08-15: 0 contribuições</title>
+      <circle class="wave-dot" cx="902.0" cy="189.2" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.74s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-08-16: 0 contribuições</title>
+      <circle class="wave-dot" cx="918.8" cy="124.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.59s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-08-17: 0 contribuições</title>
+      <circle class="wave-dot" cx="918.8" cy="133.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.63s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-08-18: 0 contribuições</title>
+      <circle class="wave-dot" cx="918.8" cy="142.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.67s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-08-19: 0 contribuições</title>
+      <circle class="wave-dot" cx="918.8" cy="151.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.71s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-08-20: 0 contribuições</title>
+      <circle class="wave-dot" cx="918.8" cy="160.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.75s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-08-21: 0 contribuições</title>
+      <circle class="wave-dot" cx="918.8" cy="169.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.79s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-08-22: 0 contribuições</title>
+      <circle class="wave-dot" cx="918.8" cy="178.4" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.83s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-08-23: 0 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="114.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.68s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-08-24: 0 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="123.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.72s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-08-25: 0 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="132.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.76s;animation-duration:5.84s" />
+    </g>
+    <g>
+      <title>2026-08-26: 0 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="141.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.80s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-08-27: 0 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="150.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.84s;animation-duration:5.36s" />
+    </g>
+    <g>
+      <title>2026-08-28: 4 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="159.0" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-4.88s;animation-duration:5.52s" />
+    </g>
+    <text x="42" y="286" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Mais escuro</text>
+    <circle cx="123" cy="282" r="4" fill="#161B22" />
+    <circle cx="139" cy="282" r="4" fill="#3B1764" />
+    <circle cx="155" cy="282" r="4" fill="#5B21B6" />
+    <circle cx="171" cy="282" r="4" fill="#7C3AED" />
+    <circle cx="187" cy="282" r="4" fill="#C084FC" />
+    <text x="200" y="286" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Mais intenso</text>
+    <text x="958" y="286" text-anchor="end" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">Atualização diária automática</text>
+  </g>
+  <rect x="1" y="1" width="998" height="308" rx="22" fill="none" stroke="#30363D" />
 </svg>
