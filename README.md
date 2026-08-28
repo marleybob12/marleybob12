@@ -71,15 +71,12 @@ Landing page e sistema de agendamento para uma barbearia, com organização de c
 ### 📊 Desenvolvimento no GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=marleybob12&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF&icon_color=8B5CF6" alt="Estatísticas do GitHub de Marley Thales" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marleybob12&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF" alt="Linguagens mais usadas por Marley Thales no GitHub" />
+  <img width="100%" src="./assets/contribution-wave.svg" alt="Onda animada das contribuições de Marley Thales no GitHub" />
 </div>
 
-<br />
-
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=marleybob12&bg_color=0D1117&color=A855F7&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" alt="Gráfico de contribuições de Marley Thales" />
-</div>
+<p align="center">
+  <sub>Atualizada diariamente com minhas contribuições públicas.</sub>
+</p>
 
 <p align="center">
   <em>Aprendendo, construindo e evoluindo um projeto de cada vez.</em>
