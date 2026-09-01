@@ -52,10 +52,6 @@
     <text x="958" y="44" text-anchor="end" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">155</text>
     <text x="958" y="66" text-anchor="end" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">contribuições</text>
     <g>
-      <title>2025-08-31: 0 contribuições</title>
-      <circle class="wave-dot" cx="62.0" cy="128.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.00s;animation-duration:5.20s" />
-    </g>
-    <g>
       <title>2025-09-01: 0 contribuições</title>
       <circle class="wave-dot" cx="62.0" cy="137.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-0.04s;animation-duration:5.36s" />
     </g>
@@ -1514,6 +1510,10 @@
     <g>
       <title>2026-08-31: 0 contribuições</title>
       <circle class="wave-dot" cx="935.6" cy="123.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.72s;animation-duration:5.68s" />
+    </g>
+    <g>
+      <title>2026-09-01: 0 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="132.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.76s;animation-duration:5.84s" />
     </g>
     <text x="42" y="286" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Mais escuro</text>
     <circle cx="123" cy="282" r="4" fill="#161B22" />
