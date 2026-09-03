@@ -49,12 +49,8 @@
     <path class="wave-front" d="M-90 252 C130 205 300 268 500 238 S820 205 1090 258 V320 H-90 Z" fill="url(#wave-gradient-front)" />
     <text x="42" y="44" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Onda de contribuições</text>
     <text x="42" y="68" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Contribuições públicas dos últimos 12 meses</text>
-    <text x="958" y="44" text-anchor="end" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">155</text>
+    <text x="958" y="44" text-anchor="end" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">150</text>
     <text x="958" y="66" text-anchor="end" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">contribuições</text>
-    <g>
-      <title>2025-09-02: 8 contribuições</title>
-      <circle class="wave-dot" cx="62.0" cy="146.0" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-0.08s;animation-duration:5.52s" />
-    </g>
     <g>
       <title>2025-09-03: 1 contribuição</title>
       <circle class="wave-dot" cx="62.0" cy="155.0" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-0.12s;animation-duration:5.68s" />
@@ -121,7 +117,7 @@
     </g>
     <g>
       <title>2025-09-19: 5 contribuições</title>
-      <circle class="wave-dot" cx="95.6" cy="193.3" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-0.38s;animation-duration:5.52s" />
+      <circle class="wave-dot" cx="95.6" cy="193.3" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-0.38s;animation-duration:5.52s" />
     </g>
     <g>
       <title>2025-09-20: 0 contribuições</title>
@@ -297,7 +293,7 @@
     </g>
     <g>
       <title>2025-11-02: 5 contribuições</title>
-      <circle class="wave-dot" cx="213.2" cy="140.1" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-0.81s;animation-duration:5.84s" />
+      <circle class="wave-dot" cx="213.2" cy="140.1" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-0.81s;animation-duration:5.84s" />
     </g>
     <g>
       <title>2025-11-03: 0 contribuições</title>
@@ -393,7 +389,7 @@
     </g>
     <g>
       <title>2025-11-26: 5 contribuições</title>
-      <circle class="wave-dot" cx="263.6" cy="135.9" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-1.20s;animation-duration:5.20s" />
+      <circle class="wave-dot" cx="263.6" cy="135.9" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.20s;animation-duration:5.20s" />
     </g>
     <g>
       <title>2025-11-27: 0 contribuições</title>
@@ -401,7 +397,7 @@
     </g>
     <g>
       <title>2025-11-28: 5 contribuições</title>
-      <circle class="wave-dot" cx="263.6" cy="153.9" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-1.28s;animation-duration:5.52s" />
+      <circle class="wave-dot" cx="263.6" cy="153.9" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-1.28s;animation-duration:5.52s" />
     </g>
     <g>
       <title>2025-11-29: 0 contribuições</title>
@@ -1493,7 +1489,7 @@
     </g>
     <g>
       <title>2026-08-28: 5 contribuições</title>
-      <circle class="wave-dot" cx="918.8" cy="169.4" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-4.79s;animation-duration:5.36s" />
+      <circle class="wave-dot" cx="918.8" cy="169.4" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-4.79s;animation-duration:5.36s" />
     </g>
     <g>
       <title>2026-08-29: 0 contribuições</title>
@@ -1514,6 +1510,10 @@
     <g>
       <title>2026-09-02: 0 contribuições</title>
       <circle class="wave-dot" cx="935.6" cy="141.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.80s;animation-duration:5.20s" />
+    </g>
+    <g>
+      <title>2026-09-03: 3 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="150.0" r="4.7" fill="#7C3AED" opacity="1" style="animation-delay:-4.84s;animation-duration:5.36s" />
     </g>
     <text x="42" y="286" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Mais escuro</text>
     <circle cx="123" cy="282" r="4" fill="#161B22" />
