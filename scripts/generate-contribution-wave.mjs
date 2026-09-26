@@ -193,6 +193,12 @@ function renderSvg(calendar) {
   });
 
   const total = Number(calendar.totalContributions || 0).toLocaleString("pt-BR");
+  const updatedAt = new Intl.DateTimeFormat("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  }).format(new Date());
   const subtitle = calendar.demo
     ? "Prévia local da animação"
     : "Contribuições públicas dos últimos 12 meses";
@@ -265,7 +271,9 @@ function renderSvg(calendar) {
     '    <circle cx="171" cy="282" r="4" fill="#7C3AED" />',
     '    <circle cx="187" cy="282" r="4" fill="#C084FC" />',
     '    <text x="200" y="286" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Mais intenso</text>',
-    '    <text x="958" y="286" text-anchor="end" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">Atualização diária automática</text>',
+    '    <text x="958" y="286" text-anchor="end" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">Atualizado automaticamente em ' +
+      escapeXml(updatedAt) +
+      "</text>",
     "  </g>",
     '  <rect x="1" y="1" width="998" height="308" rx="22" fill="none" stroke="#30363D" />',
     "</svg>",
