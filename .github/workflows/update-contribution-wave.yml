@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "15 3 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-contribution-wave.mjs"
+      - ".github/workflows/update-contribution-wave.yml"
 
 permissions:
   contents: write
