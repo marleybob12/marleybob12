@@ -49,7 +49,7 @@
     <path class="wave-front" d="M-90 252 C130 205 300 268 500 238 S820 205 1090 258 V320 H-90 Z" fill="url(#wave-gradient-front)" />
     <text x="42" y="44" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Onda de contribuições</text>
     <text x="42" y="68" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Contribuições públicas dos últimos 12 meses</text>
-    <text x="958" y="44" text-anchor="end" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">179</text>
+    <text x="958" y="44" text-anchor="end" fill="#C084FC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">186</text>
     <text x="958" y="66" text-anchor="end" fill="#9CA3AF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">contribuições</text>
     <g>
       <title>2025-09-28: 0 contribuições</title>
@@ -1508,8 +1508,12 @@
       <circle class="wave-dot" cx="918.8" cy="178.4" r="4.7" fill="#3B1764" opacity="1" style="animation-delay:-4.83s;animation-duration:5.52s" />
     </g>
     <g>
-      <title>2026-09-27: 0 contribuições</title>
-      <circle class="wave-dot" cx="935.6" cy="114.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.68s;animation-duration:5.52s" />
+      <title>2026-09-27: 7 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="114.0" r="4.7" fill="#C084FC" opacity="1" style="animation-delay:-4.68s;animation-duration:5.52s" />
+    </g>
+    <g>
+      <title>2026-09-28: 0 contribuições</title>
+      <circle class="wave-dot" cx="935.6" cy="123.0" r="3.7" fill="#161B22" opacity="0.62" style="animation-delay:-4.72s;animation-duration:5.68s" />
     </g>
     <text x="42" y="286" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Mais escuro</text>
     <circle cx="123" cy="282" r="4" fill="#161B22" />
@@ -1518,7 +1522,7 @@
     <circle cx="171" cy="282" r="4" fill="#7C3AED" />
     <circle cx="187" cy="282" r="4" fill="#C084FC" />
     <text x="200" y="286" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12">Mais intenso</text>
-    <text x="958" y="286" text-anchor="end" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">Atualizado automaticamente em 27/09/2026</text>
+    <text x="958" y="286" text-anchor="end" fill="#F3E8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">Atualizado automaticamente em 28/09/2026</text>
   </g>
   <rect x="1" y="1" width="998" height="308" rx="22" fill="none" stroke="#30363D" />
 </svg>
