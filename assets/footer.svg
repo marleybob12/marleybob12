@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="Marley Thales, marleybob12, São Paulo, Brasil">
+<title>Marley Thales, marleybob12, São Paulo, Brasil</title>
+<defs>
+
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<clipPath id="fc"><rect x="1" y="1" width="998" height="148" rx="20"/></clipPath>
+<g clip-path="url(#fc)">
+<rect width="1000" height="150" fill="#0B0A12"/>
+<path d="M-260 112 Q-195.0 96 -130.0 112 T0.0 112 T130.0 112 T260.0 112 T390.0 112 T520.0 112 T650.0 112 T780.0 112 T910.0 112 T1040.0 112 T1170.0 112 T1300.0 112 T1430.0 112 T1560.0 112 V160 H-260 Z" fill="#3F2C86" opacity="0.38"><animateTransform attributeName="transform" type="translate" from="0 0" to="-260 0" dur="11s" repeatCount="indefinite"/></path>
+<path d="M-200 122 Q-150.0 110 -100.0 122 T0.0 122 T100.0 122 T200.0 122 T300.0 122 T400.0 122 T500.0 122 T600.0 122 T700.0 122 T800.0 122 T900.0 122 T1000.0 122 T1100.0 122 T1200.0 122 T1300.0 122 T1400.0 122 T1500.0 122 V160 H-200 Z" fill="#6D46D9" opacity="0.55"><animateTransform attributeName="transform" type="translate" from="-200 0" to="0 0" dur="8s" repeatCount="indefinite"/></path>
+<path d="M-160 134 Q-120.0 125 -80.0 134 T0.0 134 T80.0 134 T160.0 134 T240.0 134 T320.0 134 T400.0 134 T480.0 134 T560.0 134 T640.0 134 T720.0 134 T800.0 134 T880.0 134 T960.0 134 T1040.0 134 T1120.0 134 T1200.0 134 T1280.0 134 T1360.0 134 V160 H-160 Z" fill="#A78BFA" opacity="0.75"><animateTransform attributeName="transform" type="translate" from="0 0" to="-160 0" dur="6s" repeatCount="indefinite"/></path>
+<text class="s" x="500.0" y="52" font-size="22" font-weight="800" fill="#F4F1FF" text-anchor="middle">Marley Thales</text>
+<text class="m" x="500.0" y="76" font-size="12" fill="#9A94B5" text-anchor="middle" letter-spacing="1.4">MARLEYBOB12 · SÃO PAULO, BRASIL</text>
+</g>
+<rect x="1" y="1" width="998" height="148" rx="20" fill="none" stroke="#2A2440"/>
+</svg>

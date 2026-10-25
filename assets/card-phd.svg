@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="275" viewBox="0 0 560 275" role="img" aria-label="PHD Escola Virtual, plataforma educacional full-stack">
+<title>PHD Escola Virtual, plataforma educacional full-stack</title>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2A2440"/></pattern>
+<clipPath id="ccc"><rect x="1" y="1" width="558" height="273" rx="18"/></clipPath>
+<linearGradient id="bowlc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D46D9"/><stop offset="1" stop-color="#3F2C86"/></linearGradient>
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.bob{animation:bob 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.fl{animation:fl 2.4s ease-in-out infinite}
+@keyframes fl{0%,100%{opacity:1}50%{opacity:.2}}
+.sq{animation:sq 4.8s ease-in-out infinite}
+@keyframes sq{0%,100%{opacity:.25}8%,14%{opacity:1}30%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<g clip-path="url(#ccc)">
+<rect width="560" height="275" fill="#0F0D18"/><rect width="560" height="275" fill="url(#dots)"/>
+<text class="m" x="30" y="46" font-size="15" fill="#FFB454">03</text>
+<text class="s" x="30" y="108" font-size="36" font-weight="800" fill="#F4F1FF" letter-spacing="-.5">PHD Escola</text>
+<text class="s" x="30" y="150" font-size="36" font-weight="800" fill="#F4F1FF" letter-spacing="-.5">Virtual</text>
+
+<text class="m" x="30" y="196" font-size="12.5" fill="#C9C2E6" letter-spacing="1">PLATAFORMA EDUCACIONAL</text>
+<line x1="30" y1="214" x2="330" y2="214" stroke="#2A2440"/>
+<line x1="30" y1="214" x2="62" y2="214" stroke="#FFB454" stroke-width="2"><animate attributeName="x1" values="30;298;30" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="62;330;62" dur="5s" repeatCount="indefinite"/></line>
+<text class="m" x="30" y="244" font-size="12" fill="#9A94B5" letter-spacing="1">REACT / NODE.JS / SUPABASE</text>
+<rect x="372" y="84" width="146" height="112" rx="10" fill="#14111F" stroke="#A78BFA" stroke-opacity=".7" stroke-width="2"/>
+<path d="M372 106 H518" stroke="#2A2440"/>
+<circle cx="386" cy="95" r="3" fill="#A78BFA"/><circle cx="397" cy="95" r="3" fill="#6D46D9"/><circle cx="408" cy="95" r="3" fill="#3F2C86"/>
+<circle cx="392" cy="128" r="11" fill="#3F2C86" stroke="#A78BFA" stroke-width="1.5"/>
+<rect x="412" y="120" width="84" height="6" rx="3" fill="#3F2C86"/><rect x="412" y="133" width="56" height="6" rx="3" fill="#3F2C86" opacity=".6"/>
+<rect x="386" y="162" width="118" height="9" rx="4.5" fill="#1E1A33"/>
+<rect x="386" y="162" width="20" height="9" rx="4.5" fill="#FFB454"><animate attributeName="width" values="20;118;118;20" keyTimes="0;.6;.9;1" dur="5s" repeatCount="indefinite"/></rect>
+<circle cx="518" cy="84" r="12" fill="none" stroke="#FFB454" stroke-width="2"><animate attributeName="r" values="12;26" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="518" cy="84" r="12" fill="#FFB454"/>
+<path d="M512.5 88 H523.5 L522 86 V82.5 A4 4 0 0 0 514 82.5 V86 Z" fill="#0B0A12"/><circle cx="518" cy="90" r="1.6" fill="#0B0A12"/>
+</g>
+<rect x="1" y="1" width="558" height="273" rx="18" fill="none" stroke="#2A2440"/>
+</svg>

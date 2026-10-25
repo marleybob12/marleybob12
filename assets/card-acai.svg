@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="275" viewBox="0 0 560 275" role="img" aria-label="Açaí Bomba, cardápio digital em produção">
+<title>Açaí Bomba, cardápio digital em produção</title>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2A2440"/></pattern>
+<clipPath id="cca"><rect x="1" y="1" width="558" height="273" rx="18"/></clipPath>
+<linearGradient id="bowla" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D46D9"/><stop offset="1" stop-color="#3F2C86"/></linearGradient>
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.bob{animation:bob 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.fl{animation:fl 2.4s ease-in-out infinite}
+@keyframes fl{0%,100%{opacity:1}50%{opacity:.2}}
+.sq{animation:sq 4.8s ease-in-out infinite}
+@keyframes sq{0%,100%{opacity:.25}8%,14%{opacity:1}30%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<g clip-path="url(#cca)">
+<rect width="560" height="275" fill="#0F0D18"/><rect width="560" height="275" fill="url(#dots)"/>
+<text class="m" x="30" y="46" font-size="15" fill="#FFB454">01</text>
+<text class="s" x="30" y="108" font-size="36" font-weight="800" fill="#F4F1FF" letter-spacing="-.5">Açaí Bomba</text>
+
+<text class="m" x="30" y="196" font-size="12.5" fill="#C9C2E6" letter-spacing="1">CARDÁPIO DIGITAL · NO AR</text>
+<line x1="30" y1="214" x2="330" y2="214" stroke="#2A2440"/>
+<line x1="30" y1="214" x2="62" y2="214" stroke="#FFB454" stroke-width="2"><animate attributeName="x1" values="30;298;30" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="62;330;62" dur="5s" repeatCount="indefinite"/></line>
+<text class="m" x="30" y="244" font-size="12" fill="#9A94B5" letter-spacing="1">REACT / VITE / JAVASCRIPT</text>
+<clipPath id="bwa"><path d="M375 150 H515 A70 64 0 0 1 375 150 Z"/></clipPath>
+<path d="M375 150 H515 A70 64 0 0 1 375 150 Z" fill="url(#bowla)"/>
+<g clip-path="url(#bwa)"><rect x="370" y="168" width="150" height="10" fill="#C4B5FD" opacity=".16"/><rect x="370" y="190" width="150" height="10" fill="#C4B5FD" opacity=".10"/></g>
+<path d="M375 150 H515 A70 64 0 0 1 375 150 Z" fill="none" stroke="#A78BFA" stroke-width="2"/>
+<ellipse cx="445" cy="150" rx="70" ry="9" fill="#0B0A12" stroke="#A78BFA" stroke-width="2"/>
+<circle class="bob" cx="414" cy="140" r="13" fill="#FFB454" style="animation-delay:0s"/>
+<circle class="bob" cx="446" cy="132" r="13" fill="#FFB454" style="animation-delay:-.8s"/>
+<circle class="bob" cx="478" cy="140" r="13" fill="#FFB454" style="animation-delay:-1.6s"/>
+<circle class="bob" cx="430" cy="120" r="8" fill="#C4B5FD" style="animation-delay:-.4s"/>
+<circle class="bob" cx="462" cy="116" r="8" fill="#C4B5FD" style="animation-delay:-1.2s"/>
+<path d="M405 214 H485" stroke="#3F2C86" stroke-width="3" stroke-linecap="round"/>
+</g>
+<rect x="1" y="1" width="558" height="273" rx="18" fill="none" stroke="#2A2440"/>
+</svg>

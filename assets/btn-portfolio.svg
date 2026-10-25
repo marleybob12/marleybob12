@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="48" viewBox="0 0 200 48" role="img" aria-label="Ver portfólio">
+<title>Ver portfólio</title>
+<defs>
+<linearGradient id="sha" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="ca"><rect x="1" y="1" width="198" height="46" rx="12"/></clipPath>
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<rect x="1" y="1" width="198" height="46" rx="12" fill="#14111F" stroke="#FFB454" stroke-width="1.5"><animate attributeName="stroke-opacity" values="1;.45;1" dur="3.2s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#ca)"><rect x="-60" y="0" width="50" height="48" fill="url(#sha)" transform="skewX(-20)"><animate attributeName="x" values="-80;260;260" keyTimes="0;.5;1" dur="4.5s" repeatCount="indefinite"/></rect></g>
+<text class="s" x="100.0" y="30" font-size="15" font-weight="700" fill="#F4F1FF" text-anchor="middle">Ver portfólio →</text>
+</svg>

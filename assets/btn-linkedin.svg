@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="48" viewBox="0 0 170 48" role="img" aria-label="LinkedIn">
+<title>LinkedIn</title>
+<defs>
+<linearGradient id="shb" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="cb"><rect x="1" y="1" width="168" height="46" rx="12"/></clipPath>
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<rect x="1" y="1" width="168" height="46" rx="12" fill="#14111F" stroke="#A78BFA" stroke-width="1.5"><animate attributeName="stroke-opacity" values="1;.45;1" dur="3.2s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#cb)"><rect x="-60" y="0" width="50" height="48" fill="url(#shb)" transform="skewX(-20)"><animate attributeName="x" values="-80;230;230" keyTimes="0;.5;1" dur="4.5s" repeatCount="indefinite"/></rect></g>
+<text class="s" x="85.0" y="30" font-size="15" font-weight="700" fill="#F4F1FF" text-anchor="middle">LinkedIn →</text>
+</svg>

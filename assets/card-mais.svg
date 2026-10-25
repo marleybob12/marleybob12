@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="275" viewBox="0 0 560 275" role="img" aria-label="Ver todos os repositórios">
+<title>Ver todos os repositórios</title>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2A2440"/></pattern>
+<clipPath id="ccd"><rect x="1" y="1" width="558" height="273" rx="18"/></clipPath>
+<linearGradient id="bowld" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D46D9"/><stop offset="1" stop-color="#3F2C86"/></linearGradient>
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.bob{animation:bob 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.fl{animation:fl 2.4s ease-in-out infinite}
+@keyframes fl{0%,100%{opacity:1}50%{opacity:.2}}
+.sq{animation:sq 4.8s ease-in-out infinite}
+@keyframes sq{0%,100%{opacity:.25}8%,14%{opacity:1}30%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<g clip-path="url(#ccd)">
+<rect width="560" height="275" fill="#0F0D18"/><rect width="560" height="275" fill="url(#dots)"/>
+<text class="m" x="30" y="46" font-size="15" fill="#FFB454">+</text>
+<text class="s" x="30" y="108" font-size="36" font-weight="800" fill="#F4F1FF" letter-spacing="-.5">Mais no</text>
+<text class="s" x="30" y="150" font-size="36" font-weight="800" fill="#F4F1FF" letter-spacing="-.5">GitHub</text>
+
+<text class="m" x="30" y="196" font-size="12.5" fill="#C9C2E6" letter-spacing="1">TODOS OS REPOSITÓRIOS</text>
+<line x1="30" y1="214" x2="330" y2="214" stroke="#2A2440"/>
+<line x1="30" y1="214" x2="62" y2="214" stroke="#FFB454" stroke-width="2"><animate attributeName="x1" values="30;298;30" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="62;330;62" dur="5s" repeatCount="indefinite"/></line>
+<text class="m" x="30" y="244" font-size="12" fill="#9A94B5" letter-spacing="1">VER NO GITHUB</text>
+<rect class="sq" x="393" y="88" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-4.80s"/><rect class="sq" x="431" y="88" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-4.30s"/><rect class="sq" x="469" y="88" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-3.80s"/><rect class="sq" x="469" y="126" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-3.30s"/><rect class="sq" x="431" y="126" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-2.80s"/><rect class="sq" x="393" y="126" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-2.30s"/><rect class="sq" x="393" y="164" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-1.80s"/><rect class="sq" x="431" y="164" width="28" height="28" rx="7" fill="#A78BFA" style="animation-delay:-1.30s"/><rect class="sq" x="469" y="164" width="28" height="28" rx="7" fill="#FFB454" style="animation-delay:-0.80s"/><path d="M481 175 l8 6 -8 6" fill="none" stroke="#0B0A12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="1" y="1" width="558" height="273" rx="18" fill="none" stroke="#2A2440"/>
+</svg>

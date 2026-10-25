@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="274" viewBox="0 0 1000 274" role="img" aria-label="Stack: Java e Python em estudo; JavaScript, React, Node.js, SQL, Firebase, Supabase e APIs REST nos projetos; PHP já usado">
+<title>Stack: Java e Python em estudo; JavaScript, React, Node.js, SQL, Firebase, Supabase e APIs REST nos projetos; PHP já usado</title>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2A2440"/></pattern>
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+@keyframes pl{0%,70%,100%{opacity:0}78%,86%{opacity:.9}}
+.pl{animation:pl 9s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<rect x="1" y="1" width="998" height="272" rx="18" fill="#0F0D18" stroke="#2A2440"/>
+<rect x="1" y="1" width="998" height="272" rx="18" fill="url(#dots)"/>
+<text class="m" x="40" y="34" font-size="11.5" fill="#9A94B5" letter-spacing="1.5">ESTUDANDO A FUNDO</text>
+<rect x="40" y="46" width="62" height="34" rx="9" fill="#3F2C86" stroke="#A78BFA"/><rect class="pl" x="40" y="46" width="62" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-0.00s"/><text class="m" x="71.0" y="68" font-size="14" fill="#F4F1FF" text-anchor="middle">Java</text>
+<rect x="112" y="46" width="80" height="34" rx="9" fill="#3F2C86" stroke="#A78BFA"/><rect class="pl" x="112" y="46" width="80" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-0.45s"/><text class="m" x="152.0" y="68" font-size="14" fill="#F4F1FF" text-anchor="middle">Python</text>
+<text class="m" x="330" y="34" font-size="11.5" fill="#9A94B5" letter-spacing="1.5">JÁ MEXI</text>
+<rect x="330" y="46" width="54" height="34" rx="9" fill="#14111F" stroke="#3F2C86" stroke-dasharray="4 4"/><rect class="pl" x="330" y="46" width="54" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-0.90s"/><text class="m" x="357.0" y="68" font-size="14" fill="#9A94B5" text-anchor="middle">PHP</text>
+<text class="m" x="40" y="116" font-size="11.5" fill="#9A94B5" letter-spacing="1.5">NOS PROJETOS</text>
+<rect x="40" y="128" width="114" height="34" rx="9" fill="#14111F" stroke="#3F2C86"/><rect class="pl" x="40" y="128" width="114" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-1.35s"/><text class="m" x="97.0" y="150" font-size="14" fill="#C9C2E6" text-anchor="middle">JavaScript</text>
+<rect x="164" y="128" width="71" height="34" rx="9" fill="#14111F" stroke="#3F2C86"/><rect class="pl" x="164" y="128" width="71" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-1.80s"/><text class="m" x="199.5" y="150" font-size="14" fill="#C9C2E6" text-anchor="middle">React</text>
+<rect x="245" y="128" width="88" height="34" rx="9" fill="#14111F" stroke="#3F2C86"/><rect class="pl" x="245" y="128" width="88" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-2.25s"/><text class="m" x="289.0" y="150" font-size="14" fill="#C9C2E6" text-anchor="middle">Node.js</text>
+<rect x="343" y="128" width="54" height="34" rx="9" fill="#14111F" stroke="#3F2C86"/><rect class="pl" x="343" y="128" width="54" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-2.70s"/><text class="m" x="370.0" y="150" font-size="14" fill="#C9C2E6" text-anchor="middle">SQL</text>
+<rect x="407" y="128" width="97" height="34" rx="9" fill="#14111F" stroke="#3F2C86"/><rect class="pl" x="407" y="128" width="97" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-3.15s"/><text class="m" x="455.5" y="150" font-size="14" fill="#C9C2E6" text-anchor="middle">Firebase</text>
+<rect x="514" y="128" width="97" height="34" rx="9" fill="#14111F" stroke="#3F2C86"/><rect class="pl" x="514" y="128" width="97" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-3.60s"/><text class="m" x="562.5" y="150" font-size="14" fill="#C9C2E6" text-anchor="middle">Supabase</text>
+<rect x="621" y="128" width="105" height="34" rx="9" fill="#14111F" stroke="#3F2C86"/><rect class="pl" x="621" y="128" width="105" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-4.05s"/><text class="m" x="673.5" y="150" font-size="14" fill="#C9C2E6" text-anchor="middle">APIs REST</text>
+<text class="m" x="40" y="198" font-size="11.5" fill="#9A94B5" letter-spacing="1.5">QUERO CHEGAR EM</text>
+<rect x="40" y="210" width="226" height="34" rx="9" fill="none" stroke="#FFB454" stroke-dasharray="4 4" stroke-opacity=".8"/><rect class="pl" x="40" y="210" width="226" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-4.50s"/><text class="m" x="153.0" y="232" font-size="14" fill="#FFB454" text-anchor="middle">Arquitetura de software</text>
+<rect x="276" y="210" width="148" height="34" rx="9" fill="none" stroke="#FFB454" stroke-dasharray="4 4" stroke-opacity=".8"/><rect class="pl" x="276" y="210" width="148" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-4.95s"/><text class="m" x="350.0" y="232" font-size="14" fill="#FFB454" text-anchor="middle">Microsserviços</text>
+<rect x="434" y="210" width="71" height="34" rx="9" fill="none" stroke="#FFB454" stroke-dasharray="4 4" stroke-opacity=".8"/><rect class="pl" x="434" y="210" width="71" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-5.40s"/><text class="m" x="469.5" y="232" font-size="14" fill="#FFB454" text-anchor="middle">CI/CD</text>
+<rect x="515" y="210" width="71" height="34" rx="9" fill="none" stroke="#FFB454" stroke-dasharray="4 4" stroke-opacity=".8"/><rect class="pl" x="515" y="210" width="71" height="34" rx="9" fill="none" stroke="#FFB454" stroke-width="1.6" style="animation-delay:-5.85s"/><text class="m" x="550.5" y="232" font-size="14" fill="#FFB454" text-anchor="middle">Nuvem</text>
+
+</svg>

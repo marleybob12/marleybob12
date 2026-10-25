@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="275" viewBox="0 0 560 275" role="img" aria-label="EventFlow, plataforma de eventos com ingresso em PDF e QR Code">
+<title>EventFlow, plataforma de eventos com ingresso em PDF e QR Code</title>
+<defs>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2A2440"/></pattern>
+<clipPath id="ccb"><rect x="1" y="1" width="558" height="273" rx="18"/></clipPath>
+<linearGradient id="bowlb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D46D9"/><stop offset="1" stop-color="#3F2C86"/></linearGradient>
+<style>
+.s{font-family:'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.bob{animation:bob 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+.fl{animation:fl 2.4s ease-in-out infinite}
+@keyframes fl{0%,100%{opacity:1}50%{opacity:.2}}
+.sq{animation:sq 4.8s ease-in-out infinite}
+@keyframes sq{0%,100%{opacity:.25}8%,14%{opacity:1}30%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<g clip-path="url(#ccb)">
+<rect width="560" height="275" fill="#0F0D18"/><rect width="560" height="275" fill="url(#dots)"/>
+<text class="m" x="30" y="46" font-size="15" fill="#FFB454">02</text>
+<text class="s" x="30" y="108" font-size="36" font-weight="800" fill="#F4F1FF" letter-spacing="-.5">EventFlow</text>
+
+<text class="m" x="30" y="196" font-size="12.5" fill="#C9C2E6" letter-spacing="1">EVENTOS · INGRESSO COM QR CODE</text>
+<line x1="30" y1="214" x2="330" y2="214" stroke="#2A2440"/>
+<line x1="30" y1="214" x2="62" y2="214" stroke="#FFB454" stroke-width="2"><animate attributeName="x1" values="30;298;30" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="62;330;62" dur="5s" repeatCount="indefinite"/></line>
+<text class="m" x="30" y="244" font-size="12" fill="#9A94B5" letter-spacing="1">JAVASCRIPT / NODE.JS / FIREBASE</text>
+<path d="M382 82 H508 A12 12 0 0 1 520 94 V128 A12 12 0 0 0 520 152 V186 A12 12 0 0 1 508 198 H382 A12 12 0 0 1 370 186 V152 A12 12 0 0 0 370 128 V94 A12 12 0 0 1 382 82 Z" fill="#14111F" stroke="#A78BFA" stroke-width="2"/>
+<rect class="fl" x="386" y="100" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.00s"/><rect class="fl" x="402" y="100" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.37s"/><rect class="fl" x="418" y="100" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.74s"/><rect class="fl" x="450" y="100" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-1.11s"/><rect class="fl" x="402" y="116" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-1.48s"/><rect class="fl" x="434" y="116" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-1.85s"/><rect class="fl" x="450" y="116" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-2.22s"/><rect class="fl" x="386" y="132" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.19s"/><rect class="fl" x="402" y="132" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.56s"/><rect class="fl" x="418" y="132" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.93s"/><rect class="fl" x="434" y="132" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-1.30s"/><rect class="fl" x="386" y="148" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-1.67s"/><rect class="fl" x="434" y="148" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-2.04s"/><rect class="fl" x="450" y="148" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.01s"/><rect class="fl" x="402" y="164" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.38s"/><rect class="fl" x="418" y="164" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-0.75s"/><rect class="fl" x="450" y="164" width="13" height="13" rx="2" fill="#C4B5FD" style="animation-delay:-1.12s"/>
+<rect x="384" y="98" width="82" height="3" rx="1.5" fill="#FFB454"><animate attributeName="y" values="98;176;98" dur="3.4s" repeatCount="indefinite"/></rect>
+<line x1="480" y1="92" x2="480" y2="188" stroke="#3F2C86" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="491" y="108" width="20" height="4" rx="2" fill="#6D46D9"/><rect x="491" y="122" width="14" height="4" rx="2" fill="#3F2C86"/>
+<circle cx="501" cy="166" r="7" fill="none" stroke="#FFB454" stroke-width="2"/>
+</g>
+<rect x="1" y="1" width="558" height="273" rx="18" fill="none" stroke="#2A2440"/>
+</svg>
